@@ -52,7 +52,7 @@ describe('NameCollection component specs', () => {
 
     const userEditElement = screen.getByRole('heading', {
       //name: 'User name: Jane Doe',
-      name: /Jane Doe/i,
+      name: /Jane Smith/i,
     });
 
     expect(userEditElement).toBeInTheDocument();
