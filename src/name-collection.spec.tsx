@@ -25,7 +25,7 @@ describe('NameCollection component specs', () => {
     // Arrange
     const getNameCollectionStub = jest
       .spyOn(api, 'getNameCollection')
-      .mockResolvedValue(['John Doe', 'Jane Doe']);
+      .mockResolvedValue(['John Doe', 'Jane Smith']);
 
     // Act
     // render(<NameCollection />);
