@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameEdit component specs should update h3 text when input changes using snapshot 1`] = `
+<DocumentFragment>
+  <h3>
+    John
+  </h3>
+  <input
+    value="John"
+  />
+</DocumentFragment>
+`;
