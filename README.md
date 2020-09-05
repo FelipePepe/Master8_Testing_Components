@@ -1,3 +1,3 @@
 # Master8_Testing_Components
 
-Continuos Integrate testing with github actions
+Continuous Integration testing with github actions
