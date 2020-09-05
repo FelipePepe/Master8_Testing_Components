@@ -45,7 +45,7 @@ describe('NameCollection component specs', () => {
     //expect(itemsBeforeWait).toHaveLength(0);
 
     const selectedUserElement = await screen.findByRole('link', {
-      name: 'Jane Doe',
+      name: 'Jane Smith',
     });
 
     userEvent.click(selectedUserElement);
